@@ -61,8 +61,8 @@ const Home = (props) => {
   }, [listData]);
 
   const initialData = async () => {
-    const resp = await axios(`GET`, `/USA?lastdays=1`);
-    console.log("resp;", resp);
+    // const resp = await axios(`GET`, `/USA?lastdays=1`);
+    // console.log("resp;", resp);
     // setListData(resp.data);
     // const _listData = [];
     // let amount_covid19 = 0;
