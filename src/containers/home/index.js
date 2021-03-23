@@ -62,12 +62,24 @@ const Home = (props) => {
         <div>
           <p
             style={{
-              color: `${theme.colors.danger}`,
+              // color: `${theme.colors.danger}`,
               fontFamily: `${theme.fontFamily.primaryBold}`,
               fontSize: `${theme.fontSize.title}`,
+              display: "flex",
+              justifyContent: "center",
             }}
           >
-            Covid Global Cases by SGN (date: {date})
+            Covid Global Cases by SGN
+          </p>
+          <p
+            style={{
+              fontFamily: `${theme.fontFamily.primary}`,
+              fontSize: `${theme.fontSize.text}`,
+              display: "flex",
+              justifyContent: "center",
+            }}
+          >
+            date: {date}
           </p>
           <div
             style={{

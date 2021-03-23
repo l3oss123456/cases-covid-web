@@ -31,8 +31,8 @@ const Covid19Chart = ({ chartData }) => {
         <Tooltip />
         <Legend />
         <Bar dataKey="cases" fill="#8884d8" />
-        <Bar dataKey="deaths" fill="red" />
-        <Bar dataKey="recovered" fill="#82ca9d" />
+        {/* <Bar dataKey="deaths" fill="red" />
+        <Bar dataKey="recovered" fill="#82ca9d" /> */}
       </BarChart>
     </ResponsiveContainer>
   );
